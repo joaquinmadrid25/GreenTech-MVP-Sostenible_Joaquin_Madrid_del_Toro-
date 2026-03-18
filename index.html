@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salvemos el Planeta - GreenTech</title>
+
+  <!-- Optimización de fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="hero-gigante">
+    <h1>Salvemos el Planeta</h1>
+    <p>Únete a la revolución verde de GreenTech.</p>
+
+    <button class="btn-eco">
+      🌱 Quiero ayudar
+    </button>
+  </div>
+
+  <footer id="footer"></footer>
+
+  <script>
+    // JavaScript nativo (sin jQuery ni moment)
+    const anioActual = new Date().getFullYear();
+
+    document.getElementById("footer").textContent =
+      "GreenTech Solutions © " + anioActual +
+      " - Haciendo un mundo mejor";
+  </script>
+
+</body>
+</html>
