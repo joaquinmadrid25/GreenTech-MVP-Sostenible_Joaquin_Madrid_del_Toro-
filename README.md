@@ -1,5 +1,7 @@
 # GreenTech MVP Sostenible
 
+Autor: Joaquin Madrid del Toro
+
 ## Descripción del proyecto
 GreenTech MVP Sostenible es una iniciativa enfocada en auditar y refactorizar una **landing page** para concienciar sobre el cambio climático.  
 El proyecto transforma una web ineficiente en una solución **ligera, rápida y sostenible**.
