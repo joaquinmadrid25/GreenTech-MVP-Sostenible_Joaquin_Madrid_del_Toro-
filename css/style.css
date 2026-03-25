@@ -24,20 +24,6 @@ body {
   margin: 0;
 }
 
-/* HERO3 */
-.hero-gigante p {
-  font-size: 1.5rem;
-  margin-top: 15px;
-}
-
-.elemento {
-  background-imagen: url('image.jpg');
-}
-
-.web .elemento {
-  background-image: url('imagen.webp');
-}
-
 /* BUTTON */
 .btn-eco {
   background-color: #28a745;
