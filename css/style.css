@@ -1,52 +1,55 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #f4fdf4;
   margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4fdf4;
 }
 
 /* HERO */
-.hero-gigante {
+.hero {
+  background-image: url("sostenibilidad.jpg"); /* también aquí tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
   color: white;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 20px;
+
+  text-shadow: 2px 2px 5px black;
 }
 
-/* HERO2 */
-.hero-gigante h1 {
-  font-size: 4rem;
-  font-weight: 900;
-  margin: 0;
-}
-
-/* BUTTON */
-.btn-eco {
-  background-color: #28a745;
-  border: 2px solid #1e7e34;
-  padding: 15px 40px;
-  font-size: 1.5rem;
-  border-radius: 50px;
-  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+/* BOTÓN */
+button {
+  background-color: green;
   color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  margin-top: 15px;
+  border-radius: 20px;
   cursor: pointer;
-  margin-top: 20px;
 }
 
-/* BUTTON2 */
-.btn-eco:hover {
-  background-color: #218838;
+/* SECCIÓN */
+.seccion {
+  padding: 40px 20px;
+}
+
+/* IMAGEN */
+img {
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin: 20px 0;
 }
 
 /* FOOTER */
 footer {
-  text-align: center;
-  padding: 15px;
-  background: #222;
+  background-color: black;
   color: white;
-  width: 100%;
+  padding: 10px;
 }
